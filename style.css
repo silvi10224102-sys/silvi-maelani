@@ -231,15 +231,16 @@ p {
     font-size: 0.97rem;
 }
 
-/* === CODE: teks diubah menjadi hijau + latar hijau pucat === */
+/* === CODE: warna hijau lebih terang dan lebih kontras === */
 code {
-    background: #f0fff2;
-    color: #1a8f3a;
+    background: #ecfff0;
+    color: #14a44d;
     padding: 2px 7px;
     border-radius: 5px;
     font-family: 'Courier New', monospace;
     font-size: 0.88em;
-    border: 1px solid #d8f0e0;
+    border: 1px solid #c8f1d2;
+    box-shadow: inset 0 0 0 1px rgba(20, 164, 77, 0.08);
 }
 
 .code-example {
@@ -279,13 +280,14 @@ code {
 
 .code-example pre code {
     background: transparent;
-    color: #9feaa0;
+    color: #76f08a;
     font-size: 0.88rem;
     border: none;
     padding: 0;
     white-space: pre-wrap;
     word-break: break-word;
     line-height: 1.65;
+    box-shadow: none;
 }
 
 .code-block-header {
